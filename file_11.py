@@ -9,10 +9,10 @@ print(sum_of_list)
 
 #Suqares up to n
 
-length = int(input("Enter Length: "))
+l = int(input("Enter Length: "))
 
 result = []
-for i in range(1, length+1):
+for i in range(1, l+1):
     result.append(i * i)
 
-print(f"Squares Up to {length}: {result}")
+print(f"Squares Up to {l}: {result}")
