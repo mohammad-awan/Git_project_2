@@ -16,3 +16,8 @@ for i in range(1, number+1):
     result = result * i
 
 print(f"Factorial of {number} is: {result}")
+
+
+n1 = int(input("Enter Any Number: "))
+
+print(f"Square of {n1} is: {n1 * n1}")
