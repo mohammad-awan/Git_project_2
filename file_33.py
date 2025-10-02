@@ -7,3 +7,12 @@ for item in list_2:
         greater = item
 
 print("Greater no:", greater)
+
+
+number = int(input("Enter any number: "))
+result = 1
+
+for i in range(1, number+1):
+    result = result * i
+
+print(f"Factorial of {number} is: {result}")
