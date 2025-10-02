@@ -21,3 +21,14 @@ print(f"Factorial of {number} is: {result}")
 n1 = int(input("Enter Any Number: "))
 
 print(f"Square of {n1} is: {n1 * n1}")
+
+
+#Suqares up to n
+
+length = int(input("Enter Length: "))
+
+result = []
+for i in range(1, length+1):
+    result.append(i * i)
+
+print(f"Squares Up to {length}: {result}")
